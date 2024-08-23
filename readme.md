@@ -1,2 +1,2 @@
 # Test
-https://Brutski93.github.io/Test/index.html
+https://brutski93.github.io/tests/index.html
