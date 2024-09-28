@@ -8,12 +8,16 @@
 <body>
   <h1>Выберете свою сексуальную ориентацию</h1>
   <div class="pole">
-    <button class="gay" name="button"><a href="index2.html">Я гей</a></button>
-    <button class="gay" name="button"><a href="index2.html">Я гей</a></button>
-    <button class="nogay" name="button"><a href="index2.html">Я не гей</a></button>
+    <button class="gay" id="gayBut1">Я гей</button>
+    <button class="gay" id="gayBut2">Я гей</button>
+    <button class="gay nogay" id="NoGayBut">Я не гей</button>
   </div>
   <div class="rez">
-    <h2>Ваш результат</h2>
+    <h2 id="testik">Ваш результат</h2>
+    <div class="non hiden" id="id-gay">99% вероятность: вы гей.<br>1% вероятность: вы жабка.</div>
+    <div class="non hiden" id="id-nogay">99% вероятность: вы не гей.<br>1% вероятность: вы сверхжабка.</div>
   </div>
+  <div class="pole pole2"><button class="tryAgain" id='again'>Try again?</button></div>
+  <script src="tests.js"></script>
 </body>
 </html>
